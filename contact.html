@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- sbse pehle side ka content sidebar m fir main m main ka content fir cointainer m sara pura ka pura content ,cointainer isiliye banaya ki dono ka content display flex krdu means rows and coloums ki form
+  .{cointainer(main)(sidebar)}-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sejal Sihare portfolio</title>
+  <link rel="stylesheet" href="cssportfolio.css">
+</head>
+<body>
+  <div class="container">
+<div class="sidebar">
+ <!-- shift+cntrl+i multiple cursors -->
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/intro.html">My Intro</a></li>
+      <li><a href="/services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+     
+    </ul>
+  </nav>
+</div>
+<div class="main">
+  <div class="hamburger">
+    <img class="ham" src="hamburger.png" alt=""width="24">
+    <img class="cross" src="cancel.png" alt="" width="23">
+  </div>
+  <!-- ab main k andar bna rhe info cointainer -->
+ <div class="contactform">
+  <h1>Contact Me for Work/General enquires</h1>
+  <form>
+    <div class="mb-3">
+      <label for="clientmail" class="form-label">Name</label>
+      <input type="name" class="form-control" id="clientmail" aria-describedby="emailHelp"></div>
+    <div class="mb-3">
+      <label for="clientmail" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp">
+      
+      <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="clientphone" class="form-label">phone</label>
+      <input type="phone" class="form-control" id="clientphone">
+    </div>
+    <div class="mb-3">
+      <label for="clientmail" class="form-label">Enquiry</label>
+      <input type="name" class="form-control" id="clientmail" aria-describedby="emailHelp"></div>
+    <div class="mb-3" id="form-check">
+      <input type="checkbox" class="form-check-input" id="isclient">
+      <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+    </div>
+   
+    <button type="submit" class="btn btn-sm">Submit</button>
+  </form>
+ </div>
+</div>
+</div>
+<script src="portfolio.js" ></script>
+</body>
+</html>
